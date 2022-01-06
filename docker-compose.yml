@@ -9,7 +9,7 @@ services:
       - redis:/data
   # Production mode, uses Cognito for auth
   feature-creep-server:
-    image: ghcr.io/niekcandaele/featurecreep-server:latest
+    image: test/serverimage:v1 
     depends_on: 
       - redis
     ports:

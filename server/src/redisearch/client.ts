@@ -189,26 +189,14 @@ export const defaultQuestions = [
       'We deliver crap. We feel ashamed to deliver it. Our stakeholders hate us.',
     question: 'Delivering value',
   },
-  {
-    descriptionGood:
-      'Releasing is simple, safe, painless and mostly automated. ',
-    descriptionBad:
-      'Releasing is risky, painful, lots of  manual work and takes forever.',
-    question: 'Easy to release',
-  },
+  
   {
     descriptionGood:
       'We love going to work and have great fun working together! ',
     descriptionBad: 'Boooooooring...',
     question: 'Fun',
   },
-  {
-    descriptionGood:
-      'Were proud of  the quality of  our code! It is clean, easy to read and has great test coverage. ',
-    descriptionBad:
-      'Our code is a pile of  dung and technical debt is raging out of  control. ',
-    question: 'Health of codebase',
-  },
+ 
   {
     descriptionGood: 'Were learning lots of  interesting stuff  all the time!',
     descriptionBad: 'We never have time to learn anything.',
@@ -216,10 +204,10 @@ export const defaultQuestions = [
   },
   {
     descriptionGood:
-      'We know exactly why we are here and were really excited about it! ',
+      'We work collborately ',
     descriptionBad:
-      'We have no idea why we are here, theres no high lever picture or focus. Our so called mission is completely unclear and uninspiring. ',
-    question: 'Mission',
+      'Not much interaction with Team',
+    question: 'Team Work',
   },
   {
     descriptionGood:
@@ -228,13 +216,7 @@ export const defaultQuestions = [
       'We are just pawns in a game of  chess with no influence over what we build or how we build it. ',
     question: 'Pawns or players',
   },
-  {
-    descriptionGood:
-      'We get stuff  done really quickly! No waiting and no delays. ',
-    descriptionBad:
-      'We never seem to get anything done. We keep getting stuck or interrupted. Stories keep getting stuck on dependencies. ',
-    question: 'Speed',
-  },
+  
 ];
 
 let instance: RediSearch;
